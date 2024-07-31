@@ -1,0 +1,8 @@
+site_name: StarMade Modding API
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - java
+    - yaml
+    - json
