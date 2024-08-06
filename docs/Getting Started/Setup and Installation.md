@@ -29,7 +29,7 @@ mod_org_id=username.modname
 mod_org=Example Org
 
 # Should be a link to your Github or StarMadeDock page.
-mod_url=https://github.com/garretreichenbach/ModTemplate
+mod_url=https://starmadedock.net/
 ```
 By default, the `build.gradle` configuration is set to export the mod to your `StarMade/mods` folder.
 ### Running Your Mod

@@ -8,13 +8,13 @@ The ModParticle system is designed for mods to easily make particles. Making a n
 * 'Sprite' - The sprite that the particle will use.
 ### ModParticle
 The ModParticle class is the main class that controls the behavior of the particle. It has the following fields:
-* `particleSpriteId` - The particle sprite id (more on this later).
-* `colorR, colorG, colorB, colorA` - Byte values (127 max) of the particle's color.
-* `lifetimeMs` - How many ms the particle lives before deletion.
-* `cameraDistance` - Used to sort particles, should never need to be changed.
-* `startTime` - When the particle came into existence.
-* `position` - The particle's position in the world.
-* `rotation` - The particle's rotation.
-* `sizeX, sizeY` - The size of the particle.
-* `velocity` - How much the particle moves each tick.
-* `normalOverride` - Particle alignment (more on this later).
+* `particleSpriteId` The particle sprite id (more on this later).
+* `colorR, colorG, colorB, colorA` Byte values (127 max) of the particle's color.
+* `lifetimeMs` How many ms the particle lives before deletion.
+* `cameraDistance` Used to sort particles, should never need to be changed.
+* `startTime` When the particle came into existence.
+* `position` The particle's position in the world.
+* `rotation` The particle's rotation.
+* `sizeX, sizeY` The size of the particle.
+* `velocity` How much the particle moves each tick.
+* `normalOverride` Particle alignment (more on this later).
