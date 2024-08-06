@@ -37,9 +37,9 @@ To run your mod, create a new Jar application configuration in IntelliJ IDEA. Se
 ```shell
 -force -uplink localhost 4242 9999
 ```
-- `-force` is used to force the game to run without the launcher.
-- `-uplink localhost 4242` is used to connect to a local server running on port 4242.
-- `9999` is the SMD ID of your mod. Since you haven't uploaded your mod to SMD yet, you can use any number here as long as it matches the one in your mod's `mod.json` file.
+* `-force` is used to force the game to run without the launcher.
+* `-uplink localhost 4242` is used to connect to a local server running on port 4242.
+* `9999` is the SMD ID of your mod. Since you haven't uploaded your mod to SMD yet, you can use any number here as long as it matches the one in your mod's `mod.json` file.
 Before you run your mod, you should also edit your `mod.json` file to match your mod's information:
 ```json
 {
